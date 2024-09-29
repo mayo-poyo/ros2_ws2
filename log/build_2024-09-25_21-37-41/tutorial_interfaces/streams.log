@@ -1,0 +1,304 @@
+[0.193s] Invoking command in '/home/mayo_poyo/ros2_ws2/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mayo_poyo/ros2_ws2/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/mayo_poyo/ros2_ws2/install/tutorial_interfaces
+[0.210s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.418s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.505s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.519s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.536s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.553s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.592s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.608s] -- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.154s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.933s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.279s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.283s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.401s] -- Found PythonExtra: /usr/bin/python3  
+[2.863s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.926s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.951s] -- Added test 'lint_cmake' to check CMake code style
+[2.952s] -- Added test 'xmllint' to check XML markup files
+[2.954s] -- Configuring done (2.8s)
+[2.978s] -- Generating done (0.0s)
+[2.979s] -- Build files have been written to: /home/mayo_poyo/ros2_ws2/build/tutorial_interfaces
+[2.983s] Invoked command in '/home/mayo_poyo/ros2_ws2/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mayo_poyo/ros2_ws2/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/mayo_poyo/ros2_ws2/install/tutorial_interfaces
+[2.984s] Invoking command in '/home/mayo_poyo/ros2_ws2/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mayo_poyo/ros2_ws2/build/tutorial_interfaces -- -j8 -l8
+[3.025s] [  0%] Built target ament_cmake_python_copy_tutorial_interfaces
+[3.034s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.121s] running egg_info
+[3.122s] creating tutorial_interfaces.egg-info
+[3.129s] writing tutorial_interfaces.egg-info/PKG-INFO
+[3.129s] writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt
+[3.130s] writing top-level names to tutorial_interfaces.egg-info/top_level.txt
+[3.130s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[3.152s] reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[3.152s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[3.169s] [  1%] Built target ament_cmake_python_build_tutorial_interfaces_egg
+[3.174s] [  1%] Built target tutorial_interfaces__rosidl_generator_type_description
+[3.179s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.198s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.405s] [  9%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__description.c.o[0m
+[3.405s] [  9%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__type_support.c.o[0m
+[3.405s] [ 12%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__functions.c.o[0m
+[3.405s] [ 12%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__type_support.c.o[0m
+[3.407s] [ 16%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o[0m
+[3.407s] [ 16%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__description.c.o[0m
+[3.409s] [ 18%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__description.c.o[0m
+[3.417s] [ 18%] Built target tutorial_interfaces__cpp
+[3.423s] [ 20%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__functions.c.o[0m
+[3.439s] [ 22%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c.o[0m
+[3.469s] [ 24%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so[0m
+[3.508s] [ 24%] Built target tutorial_interfaces__rosidl_generator_c
+[3.514s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.515s] [ 27%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.515s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.517s] [ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.518s] [ 33%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.521s] [ 35%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.673s] [ 40%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[3.673s] [ 40%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/sphere__type_support.cpp.o[0m
+[3.673s] [ 40%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[3.716s] [ 42%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[3.727s] [ 44%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/sphere__type_support.cpp.o[0m
+[3.734s] [ 46%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o[0m
+[3.734s] [ 48%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/sphere__type_support.cpp.o[0m
+[3.738s] [ 50%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o[0m
+[3.743s] [ 51%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so[0m
+[3.768s] [ 53%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/sphere__type_support.c.o[0m
+[3.779s] [ 53%] Built target tutorial_interfaces__rosidl_typesupport_c
+[3.784s] [ 55%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c.o[0m
+[3.794s] [ 57%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[3.807s] [ 59%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[3.827s] [ 61%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.834s] [ 62%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o[0m
+[3.866s] [ 62%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[3.877s] [ 64%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o[0m
+[3.918s] [ 66%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[3.958s] [ 68%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/sphere__type_support_c.cpp.o[0m
+[3.961s] [ 70%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp.o[0m
+[3.968s] [ 72%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[4.074s] [ 74%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so[0m
+[4.170s] [ 74%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[4.315s] [ 75%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.323s] [ 77%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.370s] [ 77%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[4.373s] [ 77%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[4.374s] [ 79%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.447s] [ 79%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.466s] [ 79%] Built target tutorial_interfaces
+[4.490s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.772s] [ 81%] Built target tutorial_interfaces__py
+[4.790s] [ 83%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o[0m
+[4.790s] [ 85%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_sphere_s.c.o[0m
+[4.793s] [ 87%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_add_three_ints_s.c.o[0m
+[4.911s] [ 88%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_generator_py.so[0m
+[4.955s] [ 88%] Built target tutorial_interfaces__rosidl_generator_py
+[4.967s] [ 90%] [32mBuilding C object CMakeFiles/tutorial_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.969s] [ 92%] [32mBuilding C object CMakeFiles/tutorial_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.972s] [ 94%] [32mBuilding C object CMakeFiles/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.037s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[5.040s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so[0m
+[5.059s] [100%] [32m[1mLinking C shared module rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[5.061s] [100%] Built target tutorial_interfaces_s__rosidl_typesupport_c
+[5.062s] [100%] Built target tutorial_interfaces_s__rosidl_typesupport_fastrtps_c
+[5.093s] [100%] Built target tutorial_interfaces_s__rosidl_typesupport_introspection_c
+[5.102s] Invoked command in '/home/mayo_poyo/ros2_ws2/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mayo_poyo/ros2_ws2/build/tutorial_interfaces -- -j8 -l8
+[5.187s] Invoking command in '/home/mayo_poyo/ros2_ws2/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mayo_poyo/ros2_ws2/build/tutorial_interfaces
+[5.196s] -- Install configuration: ""
+[5.196s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+[5.197s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.json
+[5.197s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.json
+[5.197s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.json
+[5.197s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[5.197s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[5.197s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.h
+[5.197s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[5.197s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.h
+[5.197s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__description.c
+[5.197s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.h
+[5.198s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.c
+[5.198s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__description.c
+[5.198s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.h
+[5.198s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h
+[5.198s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h
+[5.198s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.c
+[5.198s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c
+[5.198s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h
+[5.198s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.c
+[5.198s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.198s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h
+[5.199s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[5.199s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[5.199s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.c
+[5.199s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.c
+[5.199s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__description.c
+[5.199s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.h
+[5.199s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.h
+[5.199s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.h
+[5.199s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.h
+[5.199s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+[5.200s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv
+[5.200s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+[5.200s] -- Set non-toolchain portion of runtime path of "/home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""
+[5.200s] -- Up-to-date: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[5.200s] -- Up-to-date: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[5.200s] -- Up-to-date: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[5.200s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[5.200s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[5.200s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.201s] -- Up-to-date: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[5.201s] -- Up-to-date: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[5.201s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[5.201s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.201s] -- Set non-toolchain portion of runtime path of "/home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.201s] -- Up-to-date: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[5.201s] -- Up-to-date: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[5.201s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.hpp
+[5.201s] -- Up-to-date: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[5.201s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__builder.hpp
+[5.202s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.hpp
+[5.202s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp
+[5.202s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp
+[5.202s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.hpp
+[5.202s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__traits.hpp
+[5.202s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp
+[5.202s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.hpp
+[5.202s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp
+[5.202s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.202s] -- Up-to-date: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[5.202s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.hpp
+[5.202s] -- Up-to-date: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[5.203s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.hpp
+[5.203s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp
+[5.203s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp
+[5.203s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp
+[5.203s] -- Up-to-date: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[5.203s] -- Up-to-date: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[5.203s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.203s] -- Up-to-date: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[5.203s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps
+[5.203s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[5.203s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[5.203s] -- Up-to-date: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[5.203s] -- Up-to-date: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[5.203s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps
+[5.203s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[5.204s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.204s] -- Set non-toolchain portion of runtime path of "/home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.204s] -- Up-to-date: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[5.204s] -- Up-to-date: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[5.204s] -- Up-to-date: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[5.204s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[5.204s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[5.204s] -- Up-to-date: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c
+[5.204s] -- Up-to-date: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.c
+[5.204s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.205s] -- Up-to-date: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[5.205s] -- Up-to-date: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[5.205s] -- Up-to-date: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.c
+[5.205s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[5.205s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+[5.205s] -- Set non-toolchain portion of runtime path of "/home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.205s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+[5.206s] -- Set non-toolchain portion of runtime path of "/home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""
+[5.206s] -- Up-to-date: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[5.206s] -- Up-to-date: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[5.206s] -- Up-to-date: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[5.206s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[5.206s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[5.206s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.cpp
+[5.206s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.cpp
+[5.206s] -- Up-to-date: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[5.206s] -- Up-to-date: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[5.207s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp
+[5.207s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[5.207s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.207s] -- Set non-toolchain portion of runtime path of "/home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.207s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+[5.208s] -- Set non-toolchain portion of runtime path of "/home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.208s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+[5.208s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv
+[5.208s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info
+[5.208s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[5.208s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[5.208s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[5.208s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[5.208s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces
+[5.208s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so
+[5.209s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so
+[5.209s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg
+[5.209s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_sphere.py
+[5.209s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_num_s.c
+[5.209s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_num.py
+[5.209s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/__init__.py
+[5.209s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_sphere_s.c
+[5.209s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.209s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/__init__.py
+[5.209s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.210s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv
+[5.210s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/_add_three_ints.py
+[5.210s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/_add_three_ints_s.c
+[5.210s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/__init__.py
+[5.210s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c
+[5.210s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[5.257s] Listing '/home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces'...
+[5.257s] Compiling '/home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/__init__.py'...
+[5.257s] Listing '/home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg'...
+[5.257s] Compiling '/home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/__init__.py'...
+[5.257s] Compiling '/home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_num.py'...
+[5.257s] Compiling '/home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_sphere.py'...
+[5.257s] Listing '/home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv'...
+[5.257s] Compiling '/home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/__init__.py'...
+[5.257s] Compiling '/home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/_add_three_ints.py'...
+[5.261s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[5.261s] -- Set non-toolchain portion of runtime path of "/home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[5.261s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so
+[5.262s] -- Set non-toolchain portion of runtime path of "/home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[5.262s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so
+[5.262s] -- Set non-toolchain portion of runtime path of "/home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so" to ""
+[5.263s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so
+[5.263s] -- Set non-toolchain portion of runtime path of "/home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so" to ""
+[5.263s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl
+[5.263s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.idl
+[5.263s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl
+[5.263s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg
+[5.263s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.msg
+[5.263s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv
+[5.263s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[5.264s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[5.264s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[5.264s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[5.264s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[5.264s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[5.264s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[5.264s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[5.264s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[5.264s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[5.264s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[5.264s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[5.265s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake
+[5.265s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.265s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.265s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.265s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake
+[5.265s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.265s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.265s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.265s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.266s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake
+[5.266s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.266s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.266s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.266s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake
+[5.266s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.266s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake
+[5.266s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.266s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.266s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.267s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.267s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.267s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.267s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.267s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.267s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[5.267s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[5.267s] -- Installing: /home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[5.268s] Invoked command in '/home/mayo_poyo/ros2_ws2/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mayo_poyo/ros2_ws2/build/tutorial_interfaces

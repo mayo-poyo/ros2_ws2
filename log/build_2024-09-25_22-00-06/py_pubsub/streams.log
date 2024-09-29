@@ -1,0 +1,26 @@
+[0.378s] Invoking command in '/home/mayo_poyo/ros2_ws2/src/py_pubsub': AMENT_PREFIX_PATH=/home/mayo_poyo/ros2_ws2/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mayo_poyo/ros2_ws2/install/tutorial_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mayo_poyo/ros2_ws2/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mayo_poyo/ros2_ws2/install/py_pubsub/lib/python3.12/site-packages:/home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/mayo_poyo/ros2_ws2/build/py_pubsub/build install --record /home/mayo_poyo/ros2_ws2/build/py_pubsub/install.log --single-version-externally-managed install_data
+[0.494s] running egg_info
+[0.501s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[0.501s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[0.501s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[0.502s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[0.502s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[0.517s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.517s] adding license file 'LICENSE'
+[0.517s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.517s] running build
+[0.517s] running build_py
+[0.517s] copying py_pubsub/subscriber_member_function.py -> /home/mayo_poyo/ros2_ws2/build/py_pubsub/build/lib/py_pubsub
+[0.517s] running install
+[0.521s] running install_lib
+[0.528s] copying /home/mayo_poyo/ros2_ws2/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/mayo_poyo/ros2_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[0.529s] byte-compiling /home/mayo_poyo/ros2_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-312.pyc
+[0.529s] running install_data
+[0.529s] running install_egg_info
+[0.537s] removing '/home/mayo_poyo/ros2_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info' (and everything under it)
+[0.537s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/mayo_poyo/ros2_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info
+[0.538s] running install_scripts
+[0.593s] Installing listener script to /home/mayo_poyo/ros2_ws2/install/py_pubsub/lib/py_pubsub
+[0.593s] Installing talker script to /home/mayo_poyo/ros2_ws2/install/py_pubsub/lib/py_pubsub
+[0.594s] writing list of installed files to '/home/mayo_poyo/ros2_ws2/build/py_pubsub/install.log'
+[0.608s] Invoked command in '/home/mayo_poyo/ros2_ws2/src/py_pubsub' returned '0': AMENT_PREFIX_PATH=/home/mayo_poyo/ros2_ws2/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mayo_poyo/ros2_ws2/install/tutorial_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mayo_poyo/ros2_ws2/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mayo_poyo/ros2_ws2/install/py_pubsub/lib/python3.12/site-packages:/home/mayo_poyo/ros2_ws2/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/mayo_poyo/ros2_ws2/build/py_pubsub/build install --record /home/mayo_poyo/ros2_ws2/build/py_pubsub/install.log --single-version-externally-managed install_data

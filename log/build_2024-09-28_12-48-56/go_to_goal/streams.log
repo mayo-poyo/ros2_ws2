@@ -1,0 +1,30 @@
+[0.713s] Invoking command in '/home/mayo_poyo/ros2_ws2/src/go_to_goal': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mayo_poyo/ros2_ws2/build/go_to_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mayo_poyo/ros2_ws2/install/go_to_goal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/go_to_goal build --build-base /home/mayo_poyo/ros2_ws2/build/go_to_goal/build install --record /home/mayo_poyo/ros2_ws2/build/go_to_goal/install.log --single-version-externally-managed install_data
+[0.840s] running egg_info
+[0.841s] writing ../../build/go_to_goal/go_to_goal.egg-info/PKG-INFO
+[0.841s] writing dependency_links to ../../build/go_to_goal/go_to_goal.egg-info/dependency_links.txt
+[0.841s] writing entry points to ../../build/go_to_goal/go_to_goal.egg-info/entry_points.txt
+[0.841s] writing requirements to ../../build/go_to_goal/go_to_goal.egg-info/requires.txt
+[0.841s] writing top-level names to ../../build/go_to_goal/go_to_goal.egg-info/top_level.txt
+[0.858s] reading manifest file '../../build/go_to_goal/go_to_goal.egg-info/SOURCES.txt'
+[0.858s] adding license file 'LICENSE'
+[0.858s] writing manifest file '../../build/go_to_goal/go_to_goal.egg-info/SOURCES.txt'
+[0.858s] running build
+[0.858s] running build_py
+[0.859s] copying go_to_goal/gtg.py -> /home/mayo_poyo/ros2_ws2/build/go_to_goal/build/lib/go_to_goal
+[0.859s] running install
+[0.863s] running install_lib
+[0.871s] copying /home/mayo_poyo/ros2_ws2/build/go_to_goal/build/lib/go_to_goal/gtg.py -> /home/mayo_poyo/ros2_ws2/install/go_to_goal/lib/python3.12/site-packages/go_to_goal
+[0.871s] byte-compiling /home/mayo_poyo/ros2_ws2/install/go_to_goal/lib/python3.12/site-packages/go_to_goal/gtg.py to gtg.cpython-312.pyc
+[0.872s]   File "/home/mayo_poyo/ros2_ws2/install/go_to_goal/lib/python3.12/site-packages/go_to_goal/gtg.py", line 21
+[0.872s]     route_theta = math.atan2((curr_y-int sys argv[2])/(curr_x-int sys argv[1]))
+[0.872s]                               ^^^^^^^^^^^^^^
+[0.872s] SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[0.872s] 
+[0.872s] running install_data
+[0.872s] running install_egg_info
+[0.881s] removing '/home/mayo_poyo/ros2_ws2/install/go_to_goal/lib/python3.12/site-packages/go_to_goal-0.0.0-py3.12.egg-info' (and everything under it)
+[0.881s] Copying ../../build/go_to_goal/go_to_goal.egg-info to /home/mayo_poyo/ros2_ws2/install/go_to_goal/lib/python3.12/site-packages/go_to_goal-0.0.0-py3.12.egg-info
+[0.881s] running install_scripts
+[0.943s] Installing pub script to /home/mayo_poyo/ros2_ws2/install/go_to_goal/lib/go_to_goal
+[0.943s] writing list of installed files to '/home/mayo_poyo/ros2_ws2/build/go_to_goal/install.log'
+[0.962s] Invoked command in '/home/mayo_poyo/ros2_ws2/src/go_to_goal' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mayo_poyo/ros2_ws2/build/go_to_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mayo_poyo/ros2_ws2/install/go_to_goal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/go_to_goal build --build-base /home/mayo_poyo/ros2_ws2/build/go_to_goal/build install --record /home/mayo_poyo/ros2_ws2/build/go_to_goal/install.log --single-version-externally-managed install_data

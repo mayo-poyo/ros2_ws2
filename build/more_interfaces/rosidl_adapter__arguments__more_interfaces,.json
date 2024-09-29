@@ -1,0 +1,6 @@
+{
+  "package_name": "more_interfaces",
+  "non_idl_tuples": [
+    "/home/mayo_poyo/ros2_ws2/src/more_interfaces:msg/AddressBook.msg"
+  ]
+}

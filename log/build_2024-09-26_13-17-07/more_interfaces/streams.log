@@ -1,0 +1,42 @@
+[0.006s] Invoking command in '/home/mayo_poyo/ros2_ws2/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mayo_poyo/ros2_ws2/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/mayo_poyo/ros2_ws2/install/more_interfaces
+[0.143s] -- The C compiler identification is GNU 13.2.0
+[0.242s] -- The CXX compiler identification is GNU 13.2.0
+[0.264s] -- Detecting C compiler ABI info
+[0.341s] -- Detecting C compiler ABI info - done
+[0.351s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.351s] -- Detecting C compile features
+[0.352s] -- Detecting C compile features - done
+[0.358s] -- Detecting CXX compiler ABI info
+[0.412s] -- Detecting CXX compiler ABI info - done
+[0.420s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.420s] -- Detecting CXX compile features
+[0.420s] -- Detecting CXX compile features - done
+[0.426s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.511s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.602s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.609s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.661s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.702s] -- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.859s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:207 (add_custom_target):
+[0.859s]   The target name "more_interfaces," is reserved or not valid for certain
+[0.859s]   CMake features, such as generator expressions, and may result in undefined
+[0.859s]   behavior.
+[0.859s] Call Stack (most recent call first):
+[0.859s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[0.859s] 
+[0.859s] [0m
+[0.862s] -- Found rclcpp: 28.1.4 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.942s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.946s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.025s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.040s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.060s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.122s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_get_typesupport_target.cmake:29 (message):
+[1.122s]   more_interfaces is not a CMake target.  Maybe rosidl_generate_interfaces
+[1.122s]   was given a different target name?
+[1.122s] Call Stack (most recent call first):
+[1.122s]   CMakeLists.txt:31 (rosidl_get_typesupport_target)
+[1.122s] 
+[1.122s] [0m
+[1.122s] -- Configuring incomplete, errors occurred!
+[1.127s] Invoked command in '/home/mayo_poyo/ros2_ws2/build/more_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mayo_poyo/ros2_ws2/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/mayo_poyo/ros2_ws2/install/more_interfaces

@@ -1,0 +1,5 @@
+  File "/home/mayo_poyo/ros2_ws2/install/go_to_goal/lib/python3.12/site-packages/go_to_goal/gtg.py", line 20
+    goal_x = int sys argv[1]
+                 ^^^
+SyntaxError: invalid syntax
+

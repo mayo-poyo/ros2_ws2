@@ -1,0 +1,26 @@
+[0.613s] Invoking command in '/home/mayo_poyo/ros2_ws2/src/go_to_goal': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mayo_poyo/ros2_ws2/build/go_to_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mayo_poyo/ros2_ws2/install/go_to_goal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/go_to_goal build --build-base /home/mayo_poyo/ros2_ws2/build/go_to_goal/build install --record /home/mayo_poyo/ros2_ws2/build/go_to_goal/install.log --single-version-externally-managed install_data
+[0.735s] running egg_info
+[0.743s] writing ../../build/go_to_goal/go_to_goal.egg-info/PKG-INFO
+[0.743s] writing dependency_links to ../../build/go_to_goal/go_to_goal.egg-info/dependency_links.txt
+[0.743s] writing entry points to ../../build/go_to_goal/go_to_goal.egg-info/entry_points.txt
+[0.743s] writing requirements to ../../build/go_to_goal/go_to_goal.egg-info/requires.txt
+[0.743s] writing top-level names to ../../build/go_to_goal/go_to_goal.egg-info/top_level.txt
+[0.760s] reading manifest file '../../build/go_to_goal/go_to_goal.egg-info/SOURCES.txt'
+[0.760s] adding license file 'LICENSE'
+[0.760s] writing manifest file '../../build/go_to_goal/go_to_goal.egg-info/SOURCES.txt'
+[0.760s] running build
+[0.761s] running build_py
+[0.761s] copying go_to_goal/gtg.py -> /home/mayo_poyo/ros2_ws2/build/go_to_goal/build/lib/go_to_goal
+[0.761s] running install
+[0.764s] running install_lib
+[0.773s] copying /home/mayo_poyo/ros2_ws2/build/go_to_goal/build/lib/go_to_goal/gtg.py -> /home/mayo_poyo/ros2_ws2/install/go_to_goal/lib/python3.12/site-packages/go_to_goal
+[0.773s] byte-compiling /home/mayo_poyo/ros2_ws2/install/go_to_goal/lib/python3.12/site-packages/go_to_goal/gtg.py to gtg.cpython-312.pyc
+[0.773s] running install_data
+[0.773s] running install_egg_info
+[0.783s] removing '/home/mayo_poyo/ros2_ws2/install/go_to_goal/lib/python3.12/site-packages/go_to_goal-0.0.0-py3.12.egg-info' (and everything under it)
+[0.783s] Copying ../../build/go_to_goal/go_to_goal.egg-info to /home/mayo_poyo/ros2_ws2/install/go_to_goal/lib/python3.12/site-packages/go_to_goal-0.0.0-py3.12.egg-info
+[0.783s] running install_scripts
+[0.845s] Installing gtg script to /home/mayo_poyo/ros2_ws2/install/go_to_goal/lib/go_to_goal
+[0.845s] Installing pub script to /home/mayo_poyo/ros2_ws2/install/go_to_goal/lib/go_to_goal
+[0.845s] writing list of installed files to '/home/mayo_poyo/ros2_ws2/build/go_to_goal/install.log'
+[0.865s] Invoked command in '/home/mayo_poyo/ros2_ws2/src/go_to_goal' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mayo_poyo/ros2_ws2/build/go_to_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mayo_poyo/ros2_ws2/install/go_to_goal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/go_to_goal build --build-base /home/mayo_poyo/ros2_ws2/build/go_to_goal/build install --record /home/mayo_poyo/ros2_ws2/build/go_to_goal/install.log --single-version-externally-managed install_data

@@ -1,0 +1,19 @@
+[0.006s] Invoking command in '/home/mayo_poyo/ros2_ws2/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mayo_poyo/ros2_ws2/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/mayo_poyo/ros2_ws2/install/more_interfaces
+[0.014s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.193s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.196s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.241s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.259s] -- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.260s] -- Found rclcpp: 28.1.4 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.300s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.301s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.352s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.391s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_get_typesupport_target.cmake:29 (message):
+[0.391s]   more_interfaces is not a CMake target.  Maybe rosidl_generate_interfaces
+[0.391s]   was given a different target name?
+[0.391s] Call Stack (most recent call first):
+[0.391s]   CMakeLists.txt:26 (rosidl_get_typesupport_target)
+[0.391s] 
+[0.391s] [0m
+[0.391s] -- Configuring incomplete, errors occurred!
+[0.394s] Invoked command in '/home/mayo_poyo/ros2_ws2/build/more_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mayo_poyo/ros2_ws2/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/mayo_poyo/ros2_ws2/install/more_interfaces

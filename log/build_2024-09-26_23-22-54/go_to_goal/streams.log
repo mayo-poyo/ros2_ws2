@@ -1,0 +1,36 @@
+[0.829s] Invoking command in '/home/mayo_poyo/ros2_ws2/go_to_goal': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mayo_poyo/ros2_ws2/build/go_to_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mayo_poyo/ros2_ws2/install/go_to_goal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/go_to_goal build --build-base /home/mayo_poyo/ros2_ws2/build/go_to_goal/build install --record /home/mayo_poyo/ros2_ws2/build/go_to_goal/install.log --single-version-externally-managed install_data
+[0.974s] running egg_info
+[0.974s] creating ../build/go_to_goal/go_to_goal.egg-info
+[0.982s] writing ../build/go_to_goal/go_to_goal.egg-info/PKG-INFO
+[0.982s] writing dependency_links to ../build/go_to_goal/go_to_goal.egg-info/dependency_links.txt
+[0.982s] writing requirements to ../build/go_to_goal/go_to_goal.egg-info/requires.txt
+[0.982s] writing top-level names to ../build/go_to_goal/go_to_goal.egg-info/top_level.txt
+[0.982s] writing manifest file '../build/go_to_goal/go_to_goal.egg-info/SOURCES.txt'
+[0.999s] reading manifest file '../build/go_to_goal/go_to_goal.egg-info/SOURCES.txt'
+[0.999s] adding license file 'LICENSE'
+[0.999s] writing manifest file '../build/go_to_goal/go_to_goal.egg-info/SOURCES.txt'
+[0.999s] running build
+[0.999s] running build_py
+[1.000s] creating /home/mayo_poyo/ros2_ws2/build/go_to_goal/build
+[1.000s] creating /home/mayo_poyo/ros2_ws2/build/go_to_goal/build/lib
+[1.000s] creating /home/mayo_poyo/ros2_ws2/build/go_to_goal/build/lib/go_to_goal
+[1.000s] copying go_to_goal/pub.py -> /home/mayo_poyo/ros2_ws2/build/go_to_goal/build/lib/go_to_goal
+[1.000s] copying go_to_goal/__init__.py -> /home/mayo_poyo/ros2_ws2/build/go_to_goal/build/lib/go_to_goal
+[1.000s] running install
+[1.003s] running install_lib
+[1.012s] creating /home/mayo_poyo/ros2_ws2/install/go_to_goal/lib/python3.12/site-packages/go_to_goal
+[1.012s] copying /home/mayo_poyo/ros2_ws2/build/go_to_goal/build/lib/go_to_goal/pub.py -> /home/mayo_poyo/ros2_ws2/install/go_to_goal/lib/python3.12/site-packages/go_to_goal
+[1.013s] copying /home/mayo_poyo/ros2_ws2/build/go_to_goal/build/lib/go_to_goal/__init__.py -> /home/mayo_poyo/ros2_ws2/install/go_to_goal/lib/python3.12/site-packages/go_to_goal
+[1.013s] byte-compiling /home/mayo_poyo/ros2_ws2/install/go_to_goal/lib/python3.12/site-packages/go_to_goal/pub.py to pub.cpython-312.pyc
+[1.014s] byte-compiling /home/mayo_poyo/ros2_ws2/install/go_to_goal/lib/python3.12/site-packages/go_to_goal/__init__.py to __init__.cpython-312.pyc
+[1.014s] running install_data
+[1.014s] creating /home/mayo_poyo/ros2_ws2/install/go_to_goal/share/ament_index
+[1.015s] creating /home/mayo_poyo/ros2_ws2/install/go_to_goal/share/ament_index/resource_index
+[1.015s] creating /home/mayo_poyo/ros2_ws2/install/go_to_goal/share/ament_index/resource_index/packages
+[1.015s] copying resource/go_to_goal -> /home/mayo_poyo/ros2_ws2/install/go_to_goal/share/ament_index/resource_index/packages
+[1.016s] copying package.xml -> /home/mayo_poyo/ros2_ws2/install/go_to_goal/share/go_to_goal
+[1.016s] running install_egg_info
+[1.022s] Copying ../build/go_to_goal/go_to_goal.egg-info to /home/mayo_poyo/ros2_ws2/install/go_to_goal/lib/python3.12/site-packages/go_to_goal-0.0.0-py3.12.egg-info
+[1.022s] running install_scripts
+[1.086s] writing list of installed files to '/home/mayo_poyo/ros2_ws2/build/go_to_goal/install.log'
+[1.111s] Invoked command in '/home/mayo_poyo/ros2_ws2/go_to_goal' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mayo_poyo/ros2_ws2/build/go_to_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mayo_poyo/ros2_ws2/install/go_to_goal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/go_to_goal build --build-base /home/mayo_poyo/ros2_ws2/build/go_to_goal/build install --record /home/mayo_poyo/ros2_ws2/build/go_to_goal/install.log --single-version-externally-managed install_data

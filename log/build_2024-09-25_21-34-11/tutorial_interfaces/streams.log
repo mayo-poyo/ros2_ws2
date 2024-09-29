@@ -1,0 +1,34 @@
+[0.197s] Invoking command in '/home/mayo_poyo/ros2_ws2/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mayo_poyo/ros2_ws2/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/mayo_poyo/ros2_ws2/install/tutorial_interfaces
+[0.337s] -- The C compiler identification is GNU 13.2.0
+[0.456s] -- The CXX compiler identification is GNU 13.2.0
+[0.478s] -- Detecting C compiler ABI info
+[0.582s] -- Detecting C compiler ABI info - done
+[0.598s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.599s] -- Detecting C compile features
+[0.600s] -- Detecting C compile features - done
+[0.611s] -- Detecting CXX compiler ABI info
+[0.723s] -- Detecting CXX compiler ABI info - done
+[0.730s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.730s] -- Detecting CXX compile features
+[0.730s] -- Detecting CXX compile features - done
+[0.738s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.858s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.979s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.979s]   By not providing "Findgeometry_msg.cmake" in CMAKE_MODULE_PATH this project
+[0.979s]   has asked CMake to find a package configuration file provided by
+[0.979s]   "geometry_msg", but CMake did not find one.
+[0.979s] 
+[0.979s]   Could not find a package configuration file provided by "geometry_msg" with
+[0.979s]   any of the following names:
+[0.979s] 
+[0.979s]     geometry_msgConfig.cmake
+[0.979s]     geometry_msg-config.cmake
+[0.979s] 
+[0.979s]   Add the installation prefix of "geometry_msg" to CMAKE_PREFIX_PATH or set
+[0.979s]   "geometry_msg_DIR" to a directory containing one of the above files.  If
+[0.979s]   "geometry_msg" provides a separate development package or SDK, be sure it
+[0.980s]   has been installed.
+[0.980s] 
+[0.980s] [0m
+[0.980s] -- Configuring incomplete, errors occurred!
+[0.981s] Invoked command in '/home/mayo_poyo/ros2_ws2/build/tutorial_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mayo_poyo/ros2_ws2/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/mayo_poyo/ros2_ws2/install/tutorial_interfaces

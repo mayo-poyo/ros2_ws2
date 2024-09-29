@@ -1,0 +1,38 @@
+[0.365s] Invoking command in '/home/mayo_poyo/ros2_ws2/src/python_parameters': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mayo_poyo/ros2_ws2/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mayo_poyo/ros2_ws2/install/python_parameters/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/mayo_poyo/ros2_ws2/build/python_parameters/build install --record /home/mayo_poyo/ros2_ws2/build/python_parameters/install.log --single-version-externally-managed install_data
+[0.480s] running egg_info
+[0.481s] creating ../../build/python_parameters/python_parameters.egg-info
+[0.488s] writing ../../build/python_parameters/python_parameters.egg-info/PKG-INFO
+[0.489s] writing dependency_links to ../../build/python_parameters/python_parameters.egg-info/dependency_links.txt
+[0.489s] writing entry points to ../../build/python_parameters/python_parameters.egg-info/entry_points.txt
+[0.489s] writing requirements to ../../build/python_parameters/python_parameters.egg-info/requires.txt
+[0.489s] writing top-level names to ../../build/python_parameters/python_parameters.egg-info/top_level.txt
+[0.489s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[0.505s] reading manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[0.505s] adding license file 'LICENSE'
+[0.505s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[0.505s] running build
+[0.505s] running build_py
+[0.505s] creating /home/mayo_poyo/ros2_ws2/build/python_parameters/build
+[0.505s] creating /home/mayo_poyo/ros2_ws2/build/python_parameters/build/lib
+[0.505s] creating /home/mayo_poyo/ros2_ws2/build/python_parameters/build/lib/python_parameters
+[0.505s] copying python_parameters/python_parameters_node.py -> /home/mayo_poyo/ros2_ws2/build/python_parameters/build/lib/python_parameters
+[0.506s] copying python_parameters/__init__.py -> /home/mayo_poyo/ros2_ws2/build/python_parameters/build/lib/python_parameters
+[0.506s] running install
+[0.509s] running install_lib
+[0.517s] creating /home/mayo_poyo/ros2_ws2/install/python_parameters/lib/python3.12/site-packages/python_parameters
+[0.518s] copying /home/mayo_poyo/ros2_ws2/build/python_parameters/build/lib/python_parameters/python_parameters_node.py -> /home/mayo_poyo/ros2_ws2/install/python_parameters/lib/python3.12/site-packages/python_parameters
+[0.518s] copying /home/mayo_poyo/ros2_ws2/build/python_parameters/build/lib/python_parameters/__init__.py -> /home/mayo_poyo/ros2_ws2/install/python_parameters/lib/python3.12/site-packages/python_parameters
+[0.518s] byte-compiling /home/mayo_poyo/ros2_ws2/install/python_parameters/lib/python3.12/site-packages/python_parameters/python_parameters_node.py to python_parameters_node.cpython-312.pyc
+[0.518s] byte-compiling /home/mayo_poyo/ros2_ws2/install/python_parameters/lib/python3.12/site-packages/python_parameters/__init__.py to __init__.cpython-312.pyc
+[0.518s] running install_data
+[0.518s] creating /home/mayo_poyo/ros2_ws2/install/python_parameters/share/ament_index
+[0.518s] creating /home/mayo_poyo/ros2_ws2/install/python_parameters/share/ament_index/resource_index
+[0.518s] creating /home/mayo_poyo/ros2_ws2/install/python_parameters/share/ament_index/resource_index/packages
+[0.518s] copying resource/python_parameters -> /home/mayo_poyo/ros2_ws2/install/python_parameters/share/ament_index/resource_index/packages
+[0.518s] copying package.xml -> /home/mayo_poyo/ros2_ws2/install/python_parameters/share/python_parameters
+[0.518s] running install_egg_info
+[0.527s] Copying ../../build/python_parameters/python_parameters.egg-info to /home/mayo_poyo/ros2_ws2/install/python_parameters/lib/python3.12/site-packages/python_parameters-0.0.0-py3.12.egg-info
+[0.527s] running install_scripts
+[0.584s] Installing minimal_param_node script to /home/mayo_poyo/ros2_ws2/install/python_parameters/lib/python_parameters
+[0.584s] writing list of installed files to '/home/mayo_poyo/ros2_ws2/build/python_parameters/install.log'
+[0.721s] Invoked command in '/home/mayo_poyo/ros2_ws2/src/python_parameters' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mayo_poyo/ros2_ws2/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mayo_poyo/ros2_ws2/install/python_parameters/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/mayo_poyo/ros2_ws2/build/python_parameters/build install --record /home/mayo_poyo/ros2_ws2/build/python_parameters/install.log --single-version-externally-managed install_data

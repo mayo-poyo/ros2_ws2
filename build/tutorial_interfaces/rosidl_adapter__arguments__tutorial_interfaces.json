@@ -1,0 +1,8 @@
+{
+  "package_name": "tutorial_interfaces",
+  "non_idl_tuples": [
+    "/home/mayo_poyo/ros2_ws2/src/tutorial_interfaces:msg/Num.msg",
+    "/home/mayo_poyo/ros2_ws2/src/tutorial_interfaces:msg/Sphere.msg",
+    "/home/mayo_poyo/ros2_ws2/src/tutorial_interfaces:srv/AddThreeInts.srv"
+  ]
+}

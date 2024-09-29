@@ -1,0 +1,41 @@
+[0.491s] Invoking command in '/home/mayo_poyo/ros2_ws2/src/py_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mayo_poyo/ros2_ws2/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mayo_poyo/ros2_ws2/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/mayo_poyo/ros2_ws2/build/py_pubsub/build install --record /home/mayo_poyo/ros2_ws2/build/py_pubsub/install.log --single-version-externally-managed install_data
+[0.602s] running egg_info
+[0.602s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[0.609s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[0.609s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[0.609s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[0.610s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[0.610s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.623s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.623s] adding license file 'LICENSE'
+[0.624s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.624s] running build
+[0.624s] running build_py
+[0.624s] creating /home/mayo_poyo/ros2_ws2/build/py_pubsub/build
+[0.624s] creating /home/mayo_poyo/ros2_ws2/build/py_pubsub/build/lib
+[0.624s] creating /home/mayo_poyo/ros2_ws2/build/py_pubsub/build/lib/py_pubsub
+[0.625s] copying py_pubsub/publisher_member_function.py -> /home/mayo_poyo/ros2_ws2/build/py_pubsub/build/lib/py_pubsub
+[0.625s] copying py_pubsub/__init__.py -> /home/mayo_poyo/ros2_ws2/build/py_pubsub/build/lib/py_pubsub
+[0.625s] running install
+[0.628s] running install_lib
+[0.635s] creating /home/mayo_poyo/ros2_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[0.636s] copying /home/mayo_poyo/ros2_ws2/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/mayo_poyo/ros2_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[0.636s]   File "/home/mayo_poyo/ros2_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/publisher_member_function.py", line 32
+[0.637s]     if __name__ == "__main__"
+[0.637s]                              ^
+[0.637s] SyntaxError: expected ':'
+[0.638s] 
+[0.638s] copying /home/mayo_poyo/ros2_ws2/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/mayo_poyo/ros2_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[0.638s] byte-compiling /home/mayo_poyo/ros2_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-312.pyc
+[0.639s] byte-compiling /home/mayo_poyo/ros2_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/__init__.py to __init__.cpython-312.pyc
+[0.639s] running install_data
+[0.639s] creating /home/mayo_poyo/ros2_ws2/install/py_pubsub/share/ament_index
+[0.640s] creating /home/mayo_poyo/ros2_ws2/install/py_pubsub/share/ament_index/resource_index
+[0.640s] creating /home/mayo_poyo/ros2_ws2/install/py_pubsub/share/ament_index/resource_index/packages
+[0.640s] copying resource/py_pubsub -> /home/mayo_poyo/ros2_ws2/install/py_pubsub/share/ament_index/resource_index/packages
+[0.640s] copying package.xml -> /home/mayo_poyo/ros2_ws2/install/py_pubsub/share/py_pubsub
+[0.640s] running install_egg_info
+[0.644s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/mayo_poyo/ros2_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info
+[0.644s] running install_scripts
+[0.699s] writing list of installed files to '/home/mayo_poyo/ros2_ws2/build/py_pubsub/install.log'
+[0.713s] Invoked command in '/home/mayo_poyo/ros2_ws2/src/py_pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mayo_poyo/ros2_ws2/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mayo_poyo/ros2_ws2/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/mayo_poyo/ros2_ws2/build/py_pubsub/build install --record /home/mayo_poyo/ros2_ws2/build/py_pubsub/install.log --single-version-externally-managed install_data

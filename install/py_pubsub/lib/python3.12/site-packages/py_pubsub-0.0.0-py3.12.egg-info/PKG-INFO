@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: py-pubsub
+Version: 0.0.0
+Summary: Beginner try publisher subscriber
+Maintainer: mayo_poyo
+Maintainer-email: bharjotsingh@gmail.com
+License: Apache-2.0
+License-File: LICENSE

@@ -1,0 +1,5 @@
+  File "/home/mayo_poyo/ros2_ws2/install/py_srvcli/lib/python3.12/site-packages/py_srvcli/client_member_function.py", line 25
+    	minimal_client.get_logger().info("The result of adding %d + %d is %d" % (int(sys.argv[1]), int(sys.argv[2]), response.sum)
+    	                                ^
+SyntaxError: '(' was never closed
+

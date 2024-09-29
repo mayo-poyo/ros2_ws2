@@ -1,0 +1,23 @@
+[0.471s] Invoking command in '/home/mayo_poyo/ros2_ws2/src/py_srvcli': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mayo_poyo/ros2_ws2/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mayo_poyo/ros2_ws2/install/py_srvcli/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/mayo_poyo/ros2_ws2/build/py_srvcli/build install --record /home/mayo_poyo/ros2_ws2/build/py_srvcli/install.log --single-version-externally-managed install_data
+[0.608s] running egg_info
+[0.616s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[0.616s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[0.616s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[0.616s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[0.632s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.632s] adding license file 'LICENSE'
+[0.632s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.632s] running build
+[0.632s] running build_py
+[0.632s] copying py_srvcli/service_member_function.py -> /home/mayo_poyo/ros2_ws2/build/py_srvcli/build/lib/py_srvcli
+[0.632s] running install
+[0.636s] running install_lib
+[0.644s] copying /home/mayo_poyo/ros2_ws2/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/mayo_poyo/ros2_ws2/install/py_srvcli/lib/python3.12/site-packages/py_srvcli
+[0.644s] byte-compiling /home/mayo_poyo/ros2_ws2/install/py_srvcli/lib/python3.12/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-312.pyc
+[0.645s] running install_data
+[0.645s] running install_egg_info
+[0.653s] removing '/home/mayo_poyo/ros2_ws2/install/py_srvcli/lib/python3.12/site-packages/py_srvcli-0.0.0-py3.12.egg-info' (and everything under it)
+[0.653s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/mayo_poyo/ros2_ws2/install/py_srvcli/lib/python3.12/site-packages/py_srvcli-0.0.0-py3.12.egg-info
+[0.653s] running install_scripts
+[0.712s] writing list of installed files to '/home/mayo_poyo/ros2_ws2/build/py_srvcli/install.log'
+[0.726s] Invoked command in '/home/mayo_poyo/ros2_ws2/src/py_srvcli' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mayo_poyo/ros2_ws2/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mayo_poyo/ros2_ws2/install/py_srvcli/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/mayo_poyo/ros2_ws2/build/py_srvcli/build install --record /home/mayo_poyo/ros2_ws2/build/py_srvcli/install.log --single-version-externally-managed install_data
