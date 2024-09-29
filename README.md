@@ -1,4 +1,4 @@
-# ros2_ws2
+# Ros2 Practice
 Beginner projects to land a job in robotics  
 I am learning and practicing ros2 projects here.  
 Every package is for a project
