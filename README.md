@@ -1,6 +1,6 @@
 # ros2_ws2
-Beginner projects to land a job in robotics
-I am learning and practicing ros2 projects here.
+Beginner projects to land a job in robotics  
+I am learning and practicing ros2 projects here.  
 Every package is for a project
 1) py_pubsub - Basic Publisher Subscriber node in python
 2) py_srvcli - Server cliient node in python
